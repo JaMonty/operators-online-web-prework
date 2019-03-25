@@ -24,7 +24,7 @@ def not_safe?(speed) do
 
     it 'returns false if the speed is between 40 and 60' do
       answer = unsafe?(50)
-      expect(an
+      expect(answer).to eq
 	
 end
 	
