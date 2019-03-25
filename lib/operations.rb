@@ -12,7 +12,11 @@ end
 
 
 
-def not_safe?(speed)
+def not_safe?(speed) do
+    it 'returns true if speed is greater than 60' do
+      answer = not_safe?(79)
+      expect(answer).to eq(true)
+    end
   
 	
 end
